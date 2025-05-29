@@ -6,7 +6,7 @@
 
   document.querySelector('#joinToChannel')?.addEventListener('click', async () => {
     await statistics.onClickTgBtn();
-    window.location.href = 'https://t.me/+hg59QP1TFSFkZjEy';
+    window.location.href = 'https://t.me/kunuz';
   })
 
   if (user && user?.name && user?.phone && user?.time) {
@@ -18,7 +18,7 @@
     formData.append(`Foydalanuvchi ID`, statistics.userId);
     formData.append(`Timestamp`, statistics.time?.toString());
 
-    let response = await fetch('https://script.google.com/macros/s/AKfycby4N1_b_K6KcdqwGEme2qHUF6EqW6XXFtDcisiUWYKKwM3ylvOu73eAIsG-2yNrRvBvyA/exec', {
+    let response = await fetch('https://script.google.com/macros/s/AKfycbw76uh58b83Oa9Q6LTQsRZE8QvBwBk9WLxVSbTD2omnDYLYCn7UeVh7SLsDEs87jTnC/exec', {
       method: 'POST',
       body: formData
     })
