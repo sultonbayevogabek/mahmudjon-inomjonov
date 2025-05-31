@@ -1,19 +1,7 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: "Bebas Neue";
-  src: url("../fonts/bebas.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-.font-bebas {
-  font-family: "Bebas Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .custom-shadow {
@@ -21,15 +9,13 @@ body {
 }
 
 .main-button {
-  font-family: "Bebas Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: #0866FF;
-  @apply w-full text-white font-bold h-[70px] rounded-full cursor-pointer text-3xl relative overflow-hidden shadow;
+  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
 .submit-button {
-  font-family: "Bebas Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background: #0866FF;
-  @apply w-full text-white font-bold h-[70px] rounded-full cursor-pointer text-3xl relative overflow-hidden shadow;
+  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
 .main-button::before, .tg-button::before {
