@@ -18,7 +18,7 @@ body {
   @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
-.main-button::before, .tg-button::before {
+.main-button::before {
   content: '';
   position: absolute;
   top: -50%;
