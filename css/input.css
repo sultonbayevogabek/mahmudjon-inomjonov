@@ -10,12 +10,12 @@ body {
 
 .main-button {
   background: #00990A;
-  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
+  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-xl uppercase relative overflow-hidden shadow;
 }
 
 .submit-button {
   background: #00990A;
-  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
+  @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-xl uppercase relative overflow-hidden shadow;
 }
 
 .main-button::before {
