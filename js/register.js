@@ -1,11 +1,11 @@
 'use strict';
 
 (async _ => {
-  const statistics = new Statistics();
+  // const statistics = new Statistics();
   let user = JSON.parse(localStorage.getItem('user'));
 
   document.querySelector('#joinToChannel')?.addEventListener('click', async () => {
-    await statistics.onClickTgBtn();
+    // await statistics.onClickTgBtn();
     window.location.href = 'https://t.me/+2rQsuMRRGGZhMzAy';
   })
 
@@ -23,7 +23,7 @@
       body: formData
     })
     await response.json();
-    await statistics.onRegister(user);
+    // await statistics.onRegister(user);
     localStorage.removeItem('user');
   } else {
     localStorage.removeItem('user');
